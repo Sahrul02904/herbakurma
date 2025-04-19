@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HerbaKurma - Makanan Herbal Kurma</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="../assets/img/logo.png" alt="HerbaKurma" style="height: 36px;">
+        <span style="font-size: 1.2rem; font-weight: bold;">HerbaKurma</span>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang Produk</a></li>
+        <li><a href="#features">Keunggulan</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#address">Alamat</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>HerbaKurma</h1>
+      <p>Makanan herbal alami berbahan dasar kurma & rempah tradisional</p>
+      <a href="#order" class="btn">Pesan Sekarang</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div style="flex: 1; min-width: 280px;">
+        <h2>Tentang Produk</h2>
+        <p>HerbaKurma adalah camilan sehat yang dibuat dari kurma ajwa, habbatussauda, madu, dan jahe. Cocok untuk meningkatkan daya tahan tubuh dan memberi energi alami setiap hari.</p>
+      </div>
+      <div style="flex: 1; text-align: center; min-width: 200px;">
+        <img src="../assets/img/Product.png" alt="Produk HerbaKurma" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2>Keunggulan HerbaKurma</h2>
+      <div class="grid">
+        <div class="feature-box">
+          <i class="fas fa-seedling"></i>
+          <h3>100% Alami</h3>
+          <p>Produk kami terbuat dari bahan alami tanpa pengawet maupun pewarna buatan, aman dikonsumsi jangka panjang.</p>
+        </div>
+        <div class="feature-box">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Menyehatkan</h3>
+          <p>Mengandung antioksidan tinggi, vitamin, dan mineral penting untuk mendukung kesehatan tubuh.</p>
+        </div>
+        <div class="feature-box">
+          <i class="fas fa-users"></i>
+          <h3>Aman untuk Semua Usia</h3>
+          <p>Formulasi alami membuat HerbaKurma aman dikonsumsi oleh anak-anak hingga lansia setiap hari.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section class="order" id="order">
+    <div class="container">
+      <h2>Formulir Pemesanan</h2>
+      <form id="orderForm">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required>
+        <input type="tel" name="wa" placeholder="No. WhatsApp" required>
+        <input type="text" name="alamat" placeholder="Alamat Lengkap" required>
+        <select name="paket" required>
+          <option value="">Pilih Paket</option>
+          <option value="1box">1 Box - Rp 45.000</option>
+          <option value="3box">3 Box - Rp 120.000 (Gratis Ongkir)</option>
+        </select>
+        <button type="submit">Kirim Pesanan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Testimoni Pelanggan</h2>
+      <div class="testimonial">
+        <p>"Setelah konsumsi HerbaKurma, badan lebih fit dan tidak gampang capek!"</p>
+        <h4>- Aisyah, Surabaya</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Rasanya enak, anak-anak saya juga suka!"</p>
+        <h4>- Ibu Dina, Bandung</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Address Section -->
+  <section class="address" id="address">
+    <div class="container">
+      <h2>Alamat Toko</h2>
+      <p>Toko HerbaKurma - Jl. Dr Semeru No. 28, Bogor Tengah</p>
+      <p>Hubungi: <a href="https://wa.me/628567042263" style="color: #5a3c2e; text-decoration: underline;">085-6704-2263 (WhatsApp)</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 HerbaKurma. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/628567042263" class="wa-button" target="_blank" title="Hubungi via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
